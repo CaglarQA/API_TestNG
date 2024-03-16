@@ -35,6 +35,8 @@ public class GET_1_Header_Assert_JUnit {
 
         response.prettyPrint();
 
+
+
         // 5 status code 200 oldugunun doğrula
 
         int expectedStatusCode = 200;

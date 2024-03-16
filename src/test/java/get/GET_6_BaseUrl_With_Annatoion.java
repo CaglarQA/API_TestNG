@@ -8,7 +8,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.*;
 
 
-public class GET_6_BaseUrl extends GoRest_BaseUrl {
+public class GET_6_BaseUrl_With_Annatoion extends GoRest_BaseUrl {
    /*
 https://gorest.co.in/public/v2/users
 User send GET Request to the URL
@@ -34,6 +34,7 @@ User send GET Request to the URL
         response.prettyPrint();
 
         //3- Do assertion
+
 
         response.then()
                 .contentType("application/json")
